@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>dnn-iis</id>
+    <version>0.0.1</version>
+    <title>DotNetNorth IIS Homepage</title>
+    <authors>Steve Futcher</authors>
+    <summary>Replaces IIS Homepage with DNN Logo</summary>
+    <description>Overwites C:\inetput\wwwroot\iistart.htm with a custom demo page</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

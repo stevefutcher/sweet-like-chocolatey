@@ -1,0 +1,9 @@
+{
+    "networkGroup": "choco-net",
+    "vnet": "choco-vnet",
+    "vmSubnet": "vm-subnet",
+    "nsg": "choco-nsg",
+    "bastionIp": "choco-bastion-ip",
+    "bastionName": "choco-bastion-host",
+    "vaultName": "choco-stash"
+}
