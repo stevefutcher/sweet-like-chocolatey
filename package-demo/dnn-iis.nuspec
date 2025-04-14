@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>dnn-iis</id>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <title>DotNetNorth IIS Homepage</title>
     <authors>Steve Futcher</authors>
     <summary>Replaces IIS Homepage with DNN Logo</summary>

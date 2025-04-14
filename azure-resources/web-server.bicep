@@ -25,7 +25,7 @@ resource publicIp 'Microsoft.Network/publicIPAddresses@2024-05-01' = {
 module virtualMachine 'br/public:avm/res/compute/virtual-machine:0.12.0' = {
   name: 'virtualMachineDeployment'
   params: {
-    adminUsername: 'atmos'
+    adminUsername: 'choco'
     imageReference: {
       offer: 'WindowsServer'
       publisher: 'MicrosoftWindowsServer'

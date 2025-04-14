@@ -11,7 +11,7 @@ resource vault 'Microsoft.KeyVault/vaults@2023-07-01' existing = {
 module virtualMachine 'br/public:avm/res/compute/virtual-machine:0.12.0' = {
   name: 'virtualMachineDeployment'
   params: {
-    adminUsername: 'atmos'
+    adminUsername: 'choco'
     imageReference: {
       offer: 'windows-11'
       publisher: 'MicrosoftWindowsDesktop'
