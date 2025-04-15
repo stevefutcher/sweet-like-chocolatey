@@ -1,7 +1,7 @@
 var networkVars = loadJsonContent('./network-vars.json')
 
 @description('The name of the VM to create')
-param vmName string = 'ws25-debug'
+param vmName string = 'web-svr'
 
 resource vault 'Microsoft.KeyVault/vaults@2023-07-01' existing = {
   name: networkVars.vaultName
